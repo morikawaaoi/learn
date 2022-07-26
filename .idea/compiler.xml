@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="api-commons" />
+        <module name="provider-payment04" />
+        <module name="consumezk-order" />
+        <module name="provider-payment02" />
+        <module name="provider-payment" />
+        <module name="cosumefeign-order" />
+        <module name="provider-hystrix-payment01" />
+        <module name="consume-hystrix-dashboard" />
+        <module name="stoken-demo" />
+        <module name="eureka-server" />
+        <module name="consume-order" />
+        <module name="consume-feign-hystrix-order" />
+        <module name="config-center3344" />
+        <module name="gateway-gateway9527" />
+        <module name="config-center-client3355" />
+        <module name="consumeconsul-order" />
+        <module name="eureka-server02" />
+        <module name="HelloServiceTest" />
+        <module name="providerconsul-payment06" />
+        <module name="auto-mapper" />
+        <module name="stoken-sso-demo" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="8">
+      <module name="saToken-demo" target="8" />
+      <module name="shop-common" target="8" />
+      <module name="shop-order" target="8" />
+      <module name="shop-product" target="8" />
+      <module name="shop-user" target="8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="config-center-client3355" options="-parameters" />
+      <module name="config-center3344" options="-parameters" />
+      <module name="consume-feign-hystrix-order" options="-parameters" />
+      <module name="consume-hystrix-dashboard" options="-parameters" />
+      <module name="consume-order" options="-parameters" />
+      <module name="cosumefeign-order" options="-parameters" />
+      <module name="eureka-server" options="-parameters" />
+      <module name="eureka-server02" options="-parameters" />
+      <module name="gateway-gateway9527" options="-parameters" />
+      <module name="provider-hystrix-payment01" options="-parameters" />
+      <module name="provider-payment" options="-parameters" />
+      <module name="provider-payment02" options="-parameters" />
+      <module name="provider-payment04" options="" />
+      <module name="shop-common" options="" />
+      <module name="shop-product" options="" />
+      <module name="shop-user" options="" />
+    </option>
+  </component>
+</project>
