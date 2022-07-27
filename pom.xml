@@ -30,7 +30,10 @@
         <module>config-center-client3355</module>
         <module>auto-mapper</module>
         <module>stoken-demo</module>
-        <module>stoken-sso-demo</module>
+        <module>stoken-sso-server-demo</module>
+        <module>stoken-sso-client-demo</module>
+        <module>stoken-sso-client-mode-two-demo</module>
+        <module>stoken-sso-client-mode-three-demo</module>
     </modules>
 
     <properties>
