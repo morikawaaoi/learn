@@ -2,6 +2,7 @@ package com.sso.controller;
 
 import cn.dev33.satoken.config.SaSsoConfig;
 import cn.dev33.satoken.context.SaHolder;
+import cn.dev33.satoken.sso.SaSsoConsts;
 import cn.dev33.satoken.sso.SaSsoHandle;
 import cn.dev33.satoken.sso.SaSsoUtil;
 import cn.dev33.satoken.stp.StpUtil;
@@ -70,6 +71,10 @@ public class SsoController {
 
     @Autowired
     private void configSso(SaSsoConfig sso) {
+
+        //自定义Api路由
+        //SaSsoConsts.Api.ssoAuth="/sso/auth2";
+
         // 配置：未登录时返回的View
         sso.setNotLoginView(() -> {
             String msg = "当前会话在SSO-Server端尚未登录，请先访问"
