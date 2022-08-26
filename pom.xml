@@ -36,7 +36,6 @@
         <module>stoken-oauth2-server-demo</module>
         <module>stoken-oauth2-client-demo</module>
         <module>stoken-oauth2-server-noindex-demo</module>
-        <module>jap-demo</module>
     </modules>
 
     <properties>
