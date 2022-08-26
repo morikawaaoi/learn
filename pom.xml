@@ -88,6 +88,9 @@
             </dependency>
         </dependencies>
     </dependencyManagement>
+    <build>
+        <defaultGoal>compile</defaultGoal>
+    </build>
 
     <!--<build>
         <finalName>learn</finalName>
